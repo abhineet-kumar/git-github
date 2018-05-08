@@ -14,7 +14,7 @@ class CClassViewMenuButton : public CMFCToolBarMenuButton
 public:
 	CClassViewMenuButton(HMENU hMenu = NULL) : CMFCToolBarMenuButton((UINT)-1, hMenu, -1)
 	{
-		RAM
+		
 	}
 
 	virtual void OnDraw(CDC* pDC, const CRect& rect, CMFCToolBarImages* pImages, BOOL bHorz = TRUE,
